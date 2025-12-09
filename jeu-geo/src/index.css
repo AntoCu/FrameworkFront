@@ -1,0 +1,6 @@
+.correct {
+  fill: green !important;
+}
+.wrong {
+  fill: red !important;
+}

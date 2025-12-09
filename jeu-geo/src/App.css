@@ -1,0 +1,20 @@
+#europe-map path {
+  fill: #e5e7eb;
+  stroke: #6b7280;
+  stroke-width: 1px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+#europe-map path:hover {
+  fill: #fdba74;
+  transform: translateY(-2px);
+}
+
+#europe-map path.correct {
+  fill: #22c55e !important;
+}
+
+#europe-map path.wrong {
+  fill: #ef4444 !important;
+}
